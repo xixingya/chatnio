@@ -23,7 +23,6 @@ import {
 } from "@/components/ui/select.tsx";
 import { langsProps, setLanguage } from "@/i18n.ts";
 import { cn } from "@/components/ui/lib/utils.ts";
-import Github from "@/components/ui/icons/Github.tsx";
 import { Slider } from "@/components/ui/slider.tsx";
 import Tips from "@/components/Tips.tsx";
 import { Button } from "@/components/ui/button.tsx";
@@ -373,12 +372,9 @@ function SettingsDialog() {
                 </p>
                 <a
                   className={`flex flex-row items-center`}
-                  href={`https://github.com/Deeptrain-Community/chatnio`}
+                  href={`/`}
                 >
-                  <Github
-                    className={`inline-block h-4 w-4 mr-1 translate-y-[1px]`}
-                  />
-                  chatnio v{version}
+                  狗狗AI v{version}
                   {desktop && <Badge className={`ml-1`}>App</Badge>}
                 </a>
               </div>
